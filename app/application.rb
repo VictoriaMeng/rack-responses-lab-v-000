@@ -10,6 +10,8 @@ class Application
       resp.write "Good Afternoon"
     end
 
+    binding.pry
+
     resp.finish
   end
 end
